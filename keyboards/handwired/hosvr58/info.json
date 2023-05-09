@@ -2,7 +2,7 @@
     "manufacturer": "Justin Ho",
     "keyboard_name": "hosvr58",
     "maintainer": "Justin Ho",
-    "bootloader": "caterina",
+    "bootloader": "atmel-dfu",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
@@ -16,8 +16,8 @@
         // 2, 3, 4, 5, 6, 7, 8
         "cols": ["D1", "D0", "D4", "C6", "D7", "E6", "B4"],
 
-        // 14, A2, A1, A0, 15
-        "rows": ["B3", "F5", "F6", "F7", "B1"]
+        // A2, A1, A0, 15, 14
+        "rows": ["F5", "F6", "F7", "B1", "B3"]
     },
     "processor": "atmega32u4",
     "url": "",
@@ -54,10 +54,10 @@
                 { "matrix": [3, 4], "x": 4, "y": 3 },
                 { "matrix": [3, 5], "x": 5, "y": 3 },
                 { "matrix": [3, 6], "x": 6, "y": 3 },
+                { "matrix": [4, 2], "x": 2, "y": 4 },
                 { "matrix": [4, 3], "x": 3, "y": 4 },
                 { "matrix": [4, 4], "x": 4, "y": 4 },
-                { "matrix": [4, 5], "x": 5, "y": 4 },
-                { "matrix": [4, 6], "x": 6, "y": 4 }
+                { "matrix": [4, 5], "x": 5, "y": 4 }
             ]
         }
     }
