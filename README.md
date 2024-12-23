@@ -12,6 +12,11 @@ personal branch for qmk firmware
   3. `git fetch upstream`
   4. `git pull upstream master`
   5. `git push origin master`
+  
+# new keyboard
+
+* make sure `.gitignore` is updated since it is being used to hide other keyboards in vscode
+
 
 # reference 
 

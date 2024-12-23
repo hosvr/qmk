@@ -133,3 +133,5 @@ keyboards/keychron/*
 !keyboards/keychron/q4/**
 !keyboards/keychron/v4
 !keyboards/keychron/v4/**
+
+!keyboards/lily58
