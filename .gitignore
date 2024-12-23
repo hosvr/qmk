@@ -120,3 +120,16 @@ compile_commands.json
 via*.json
 /keyboards/**/keymaps/via/*
 /keyboards/**/keymaps/vial/*
+
+
+## personal keyboards
+keyboards/*
+!keyboards/hosvr
+!keyboards/hosvr/**
+
+!keyboards/keychron
+keyboards/keychron/*
+!keyboards/keychron/q4
+!keyboards/keychron/q4/**
+!keyboards/keychron/v4
+!keyboards/keychron/v4/**
