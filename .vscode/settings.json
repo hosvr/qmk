@@ -3,11 +3,30 @@
     // Unofficially, QMK uses spaces for indentation
     "editor.insertSpaces": true,
     // Configure glob patterns for excluding files and folders.
+    // VSCode does not support !negations, you have to spell you the specific includes
     "files.exclude": {
         "**/.build": true,
         "**/*.hex": true,
         "**/*.bin": true,
-        "**/*.uf2": true
+        "**/*.uf2": true,
+
+        // dont ignore h, k
+        "keyboards/[0-9a-gijl-z]*": true,
+
+        // build hosvr excludes
+        "keyboards/h[0-9a-np-z]*": true,
+        "keyboards/ho[0-9a-rt-z]*": true,
+        "keyboards/hos[0-9a-uw-z]*": true,
+        "keyboards/hosv[0-9a-qs-z]*": true,
+
+        // build keychron excludes, keep q4 and v4
+        "keyboards/k[0-9a-df-z]*": true,
+        "keyboards/ke[a-xz]*": true,
+        "keyboards/key[a-bd-z]*": true,
+        "keyboards/keyc[a-gi-z]*": true,
+        "keyboards/keychron/[cs]*": true,
+        "keyboards/keychron/q[0-35-9]*": true,
+        "keyboards/keychron/v[0-35-9]*": true,
     },
     "files.associations": {
         "*.h": "c",
